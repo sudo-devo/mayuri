@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./addBlog.css" />
+  </head>
+  <body>
+    <h1>Add Your Blog</h1>
+    <div>
+      <input
+        type="text"
+        name=""
+        id="username"
+        placeholder="Enter User Name"
+        disabled="true"
+      />
+      <input type="text" name="" id="title" placeholder="Enter Title.." />
+      <textarea
+        name=""
+        id="Content"
+        cols="30"
+        rows="10"
+        placeholder="Write your Content"
+      ></textarea>
+      <select name="" id="category">
+        <option value="">Filter By Category</option>
+        <option value="Business">Business</option>
+        <option value="Tech">Tech</option>
+        <option value="Lifestyle">Lifestyle</option>
+        <option value="Entertainment">Entertainment</option>
+      </select>
+      <input type="date" name="" id="date" />
+      <a href="./blog.js"><button onclick="onPost()">Post Blog</button></a>
+    </div>
+  </body>
+</html>
+<script src="./addBlog.js"></script>

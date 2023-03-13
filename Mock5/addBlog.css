@@ -1,0 +1,27 @@
+div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+input {
+  height: 40px;
+  margin-top: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+select {
+  margin-top: 10px;
+}
+
+button {
+  width: 20%;
+  display: block;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+}

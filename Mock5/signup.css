@@ -1,0 +1,31 @@
+div {
+  height: auto;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+div input {
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+div #sign {
+  width: 20%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+div #log {
+  width: 20%;
+  height: 40px;
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+  display: none;
+}

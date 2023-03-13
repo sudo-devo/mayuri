@@ -1,0 +1,138 @@
+.nvabar {
+  width: 60%;
+  height: 50px;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search {
+  width: 40%;
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.search img {
+  height: 20px;
+  width: 5%;
+}
+
+.search input {
+  height: 26px;
+  width: 90%;
+  margin-left: 5px;
+  border: none;
+}
+
+.search input[type="text"]:focus {
+  outline: none;
+}
+
+.nvabar select {
+  height: 40px;
+}
+
+.container {
+  height: auto;
+  width: 40%;
+  margin: auto;
+  border: 1px solid gray;
+  margin-top: 20px;
+}
+
+.miniDiv {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imgDiv {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.imgDiv img {
+  height: 100%;
+  width: 40%;
+  margin-right: 10px;
+}
+
+.textDiv p {
+  font-size: 20px;
+}
+
+.btnDiv {
+  margin-left: 30px;
+}
+.btnDiv button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btnDiv {
+  width: 40%;
+}
+
+.btnDiv button:nth-child(1) {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  height: 30px;
+  width: 45%;
+}
+
+.btnDiv button:nth-child(2) {
+  background-color: rgb(170, 58, 76);
+  color: #fff;
+  border: none;
+  height: 30px;
+  width: 45%;
+}
+
+.content {
+  line-height: 24px;
+}
+
+.likeDiv {
+  height: 30px;
+  width: 20%;
+  border: 1px solid navy;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.likeDiv img {
+  height: 30px;
+  width: 30px;
+}
+
+.commDiv {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  border: 1px solid gray;
+  margin-top: 20px;
+}
+
+.miniComDiv {
+  border: 1px solid blue;
+}
+
+.modal {
+  height: 600px;
+  width: 600px;
+  background-color: bisque;
+  position: fixed;
+  left: 580px;
+  top: 200px;
+}
